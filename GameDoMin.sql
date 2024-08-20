@@ -1,0 +1,17 @@
+Create database GameDoMin	
+Go
+use GameDoMin
+drop database GameDoMin
+CREATE TABLE NGUOICHOI
+(
+	TENNGUOICHOI VARCHAR(20) PRIMARY KEY,
+	MATKHAU char(10),
+	SOTRANDACHOI INT,
+	SOTRANTHANG INT,
+	
+)
+
+INSERT INTO NGUOICHOI
+VALUES ('Dinh', '123',10,5)
+
+Select * from dbo.NGUOICHOI
